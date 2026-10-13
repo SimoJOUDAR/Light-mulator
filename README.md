@@ -73,3 +73,7 @@ The app is ad-hoc signed for local use. The icon is generated on the first build
   Xcode prepares the device for a few minutes; the app waits and retries on its own.
 - Control from the Mac needs iOS 27 or later; earlier versions get the shared clipboard and the other controls.
 - Stop sends `adb emu kill`, which saves the quick-boot state; Force Kill sends SIGKILL.
+
+## License
+
+[MIT](LICENSE)
